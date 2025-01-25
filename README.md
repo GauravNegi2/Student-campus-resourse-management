@@ -27,11 +27,14 @@ smart-campus-resource-management-system
 ├── src
 │   ├── components
 │   │   ├── RoomBooking
-│   │   │   └── RoomBooking.js
+│   │   │   ├──  RoomBooking.js
+|   |   |   └──  RoomBooking.css
 │   │   ├── InventoryTracker
-│   │   │   └── InventoryTracker.js
+│   │   │   ├──  InventoryTracker.js
+|   |   |   └──  InventoryTracker.css 
 │   │   └── MaintenanceRequests
-│   │       └── MaintenanceRequests.js
+│   │       ├──  MaintenanceRequests.js
+|   |       └──  MaintenanceRequests.css
 │   ├── App.js
 │   ├── index.js
 │   └── styles
