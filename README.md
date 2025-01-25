@@ -32,12 +32,15 @@ smart-campus-resource-management-system
 │   │   ├── InventoryTracker
 │   │   │   ├──  InventoryTracker.js
 |   |   |   └──  InventoryTracker.css 
-│   │   └── MaintenanceRequests
+│   │   ├──  MaintenanceRequests
 │   │   |   ├──  MaintenanceRequests.js
 |   |   |   └──  MaintenanceRequests.css
-|   |   └── Register
-|   |       ├──  Register.js
-|   |       └──  Register.css
+|   |   ├──  Register
+|   |   |   ├──  Register.js
+|   |   |   └──  Register.css
+|   |   └── Login
+|   |       ├──  Login.js
+|   |       └──  Login.css
 |   | 
 │   ├── App.js
 │   ├── index.js
