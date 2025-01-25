@@ -19,8 +19,8 @@ The Smart Campus Resource Management System is designed to help colleges efficie
 ```
 smart-campus-resource-management-system
 ├── backend
-|   ├── package.jason
-|   └── server.js
+|   ├──  package.jason
+|   └──  server.js
 ├── public
 │   ├── index.html
 │   └── favicon.ico
@@ -33,8 +33,12 @@ smart-campus-resource-management-system
 │   │   │   ├──  InventoryTracker.js
 |   |   |   └──  InventoryTracker.css 
 │   │   └── MaintenanceRequests
-│   │       ├──  MaintenanceRequests.js
-|   |       └──  MaintenanceRequests.css
+│   │   |   ├──  MaintenanceRequests.js
+|   |   |   └──  MaintenanceRequests.css
+|   |   └── Register
+|   |       ├──  Register.js
+|   |       └──  Register.css
+|   | 
 │   ├── App.js
 │   ├── index.js
 │   └── styles
