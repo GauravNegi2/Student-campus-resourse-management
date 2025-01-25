@@ -18,6 +18,9 @@ The Smart Campus Resource Management System is designed to help colleges efficie
 ## Project Structure
 ```
 smart-campus-resource-management-system
+├── backend
+|   ├── package.jason
+|   └── server.js
 ├── public
 │   ├── index.html
 │   └── favicon.ico
