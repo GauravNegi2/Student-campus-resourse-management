@@ -1,0 +1,56 @@
+/* src/components/MaintenanceRequests/MaintenanceRequests.css */
+.maintenance-requests {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.maintenance-requests h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #35424a;
+}
+
+.maintenance-requests form {
+    display: flex;
+    flex-direction: column;
+}
+
+.maintenance-requests form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.maintenance-requests button {
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.maintenance-requests button:hover {
+    background: #e8491d;
+}
+
+.maintenance-requests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.maintenance-requests li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.maintenance-requests li:last-child {
+    border-bottom: none;
+}

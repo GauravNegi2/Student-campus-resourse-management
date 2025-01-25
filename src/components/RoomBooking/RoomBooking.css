@@ -1,0 +1,57 @@
+/* src/components/RoomBooking/RoomBooking.css */
+.room-booking {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-booking h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #35424a;
+}
+
+.room-booking form {
+    display: flex;
+    flex-direction: column;
+}
+
+.room-booking form div {
+    margin-bottom: 15px;
+}
+
+.room-booking form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.room-booking form select,
+.room-booking form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.room-booking button {
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.room-booking button:hover {
+    background: #e8491d;
+}
+
+.room-booking p {
+    text-align: center;
+    color: green;
+    margin-top: 15px;
+}
